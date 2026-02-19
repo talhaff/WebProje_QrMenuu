@@ -66,7 +66,7 @@ export const initialMenu = [
   },
   { 
     id: 10, 
-    name: "İce Çay", 
+    name: "Soğuk Çay", 
     category: "İçecek", 
     price: 45, 
     image: "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/xKTn6cEVgy_500x500.png" 
