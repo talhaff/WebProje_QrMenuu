@@ -5,7 +5,7 @@ import AddMenuItem from './Components/AddMenuItem';
 
 function App() {
   const [menuItems, setMenuItems] = useState(() => {
-    const savedMenu = localStorage.getItem('qrMenuDataV4');
+    const savedMenu = localStorage.getItem('qrMenuDataV6');
     return savedMenu ? JSON.parse(savedMenu) : initialMenu;
   });
 
@@ -18,7 +18,7 @@ function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('qrMenuDataV4', JSON.stringify(menuItems));
+    localStorage.setItem('qrMenuDataV6', JSON.stringify(menuItems));
   }, [menuItems]);
 
   const handleAddItem = (newItem) => {
