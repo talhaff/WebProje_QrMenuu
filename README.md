@@ -1,5 +1,6 @@
 # Project Documentation
-# Netlify Link : ozcanqrmenu.netlify.app
+
+## Netlify Link : ozcanqrmenu.netlify.app
 ## Overview
 This is a web development project repository.
 
