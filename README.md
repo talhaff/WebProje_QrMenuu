@@ -1,16 +1,25 @@
-# React + Vite
+# Project Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a web development project repository.
 
-Currently, two official plugins are available:
+## Project Structure
+- **Location**: `C:/Users/TALHA/Desktop/WebGeliştirme_Proje/`
+- **File**: README.md
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+Add comprehensive documentation including:
+- Project description and purpose
+- Installation instructions
+- Usage guidelines
+- Features list
+- Technologies used
+- Contributing guidelines
+- License information
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Next Steps
+1. Complete the README.md file with detailed information
+2. Add code documentation for each module
+3. Include examples and screenshots if applicable
+4. Document API endpoints if applicable
+5. Add deployment instructions
