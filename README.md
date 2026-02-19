@@ -9,7 +9,6 @@ Bu proje, eğitim programı çerçevesinde modern web dünyasına giriş ve kavr
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-![ÖzCan QR Menü Ekran Görüntüsü](./proje_ekrani.jpg) 
 
 ## 🚀 Proje Özellikleri ve İstenen Görevler
 
