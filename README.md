@@ -1,39 +1,41 @@
 # ÖzCan Geleneksel Lezzet Durağı - QR Menü Yönetim Sistemi
 
-[cite_start]Bu proje, eğitim programı çerçevesinde modern web dünyasına giriş ve kavramların bütüncül kullanımı amacıyla geliştirilmiş [cite: 3][cite_start], interaktif bir restoran QR Menü uygulamasıdır[cite: 2]. Müşteriler için sade bir arayüz sunarken, yöneticiler için gizli bir yönetim paneli barındırır.
+Bu proje, eğitim programı çerçevesinde modern web dünyasına giriş ve kavramların bütüncül kullanımı amacıyla geliştirilmiş interaktif bir restoran QR Menü uygulamasıdır . Müşteriler için sade bir arayüz sunarken, yöneticiler için gizli bir yönetim paneli barındırır..
 
-[cite_start]🔗 **Canlı Proje Linki (Netlify):** [https://ozcanqrmenu.netlify.app](https://ozcanqrmenu.netlify.app) [cite: 25]
+🔗 **Canlı Proje Linki (Netlify):** [https://ozcanqrmenu.netlify.app](https://ozcanqrmenu.netlify.app) 
 
 ## 📸 Ekran Görüntüleri
-[cite_start]*(Proje Müşteri ve Yönetici Paneli Görünümü)* 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ![ÖzCan QR Menü Ekran Görüntüsü](./proje_ekrani.jpg) 
 
 ## 🚀 Proje Özellikleri ve İstenen Görevler
 
-[cite_start]Yönergede belirtilen modern Javascript çerçevesi ile proje geliştirme adımları [cite: 17] eksiksiz uygulanmıştır:
+Yönergede belirtilen modern Javascript çerçevesi ile proje geliştirme adımları  eksiksiz uygulanmıştır:
 
-* [cite_start]**Listeleme İşlemi:** Müşteriler menüdeki ürünleri kategorilere (Ana Yemek, Tatlı vb.) göre filtreleyerek listeleyebilir[cite: 19].
+* **Listeleme İşlemi:** Müşteriler menüdeki ürünleri kategorilere (Ana Yemek, Tatlı vb.) göre filtreleyerek listeleyebilir
 * **Gizli Admin Paneli:** Yalnızca yetkililerin erişebileceği (Şifre korumalı) yönetim modülü.
-* [cite_start]**Ekleme İşlemi:** Yönetici modunda menüye yeni ürün, görsel, fiyat ve kategori eklenebilir[cite: 18].
-* [cite_start]**Güncelleme İşlemi:** Mevcut ürünlerin fiyatı, ismi veya kategorisi güncellenebilir[cite: 20].
-* [cite_start]**Silme İşlemi:** Menüden kaldırılmak istenen ürünler tek tıkla silinebilir[cite: 21].
+* **Ekleme İşlemi:** Yönetici modunda menüye yeni ürün, görsel, fiyat ve kategori eklenebilir
+* **Güncelleme İşlemi:** Mevcut ürünlerin fiyatı, ismi veya kategorisi güncellenebilir
+* **Silme İşlemi:** Menüden kaldırılmak istenen ürünler tek tıkla silinebilir
 * **Veri Kalıcılığı:** Veritabanı simülasyonu için tarayıcının `localStorage` API'si kullanılmıştır.
 
 ## 🛠 Kullanılan Teknolojiler
 
-* [cite_start]**Frontend Framework:** ReactJS [cite: 6] [cite_start](Vite ile oluşturulmuştur [cite: 12])
-* [cite_start]**Stil/Tasarım:** Bootstrap 5 [cite: 15] & Özel CSS
-* [cite_start]**Yayınlama (Deployment):** Netlify [cite: 25]
-* [cite_start]**Sürüm Kontrolü:** Git & GitHub [cite: 23]
+* **Frontend Framework:** ReactJS (Vite ile oluşturulmuştur )
+* **Stil/Tasarım:** Bootstrap 5 & Özel CSS
+* **Yayınlama (Deployment):** Netlify 
+* **Sürüm Kontrolü:** Git & GitHub 
 
 ## 📁 Proje Klasör Yapısı
 
-[cite_start]Yönergeye uygun olarak proje dosyaları modüler bir yapıda organize edilmiştir[cite: 14]:
+Yönergeye uygun olarak proje dosyaları modüler bir yapıda organize edilmiştir
 
-* [cite_start]`/src/Components` : Tekrar kullanılabilir UI bileşenleri (örn: AddMenuItem.jsx)[cite: 14].
-* [cite_start]`/src/Pages` : Ana sayfa ve görünümler (örn: App.jsx)[cite: 14].
-* [cite_start]`/src/Interfaces` : Varsayılan veri modelleri ve başlangıç verileri (örn: MenuData.js)[cite: 14].
+* `/src/Components` : Tekrar kullanılabilir UI bileşenleri (örn: AddMenuItem.jsx)
+* `/src/Pages` : Ana sayfa ve görünümler (örn: App.jsx)
+* `/src/Interfaces` : Varsayılan veri modelleri ve başlangıç verileri (örn: MenuData.js)
 
 ## ⚙️ Kurulum (Geliştirici Ortamı)
 
